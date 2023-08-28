@@ -1,0 +1,16 @@
+{
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "symfony/var-dumper": "^6.3",
+        "doctrine/dbal": "^3.6",
+        "symfony/error-handler": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "TravelApp\\Controllers\\": "TravelApp/Controllers",
+            "TravelApp\\Models\\": "TravelApp/Models",
+            "TravelApp\\Base\\": "TravelApp/Base",
+            "TravelApp\\Core\\": "TravelApp/Core"
+        }
+    }
+}
